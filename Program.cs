@@ -52,6 +52,30 @@ namespace lesson1
                 lab4.Problem9();
                 lab4.Problem10();
             }
+
+            else if(a == 5)
+            {   
+                lab4.Problem1();
+                lab4.Problem2();
+                lab4.Problem3();
+                lab4.Problem4();
+                lab4.Problem5();
+                lab4.Problem6();
+                lab4.Problem7();
+                lab4.Problem8();
+                lab4.Problem9();
+                lab4.Problem10();
+                lab4.Problem11();
+                lab4.Problem13();
+                lab4.Problem14();
+                lab4.Problem15();
+                lab4.Problem16();
+                lab4.Problem17();
+                lab4.Problem18();
+                lab4.Problem19();
+                lab4.Problem20();
+                lab4.Problem21();
+            }
         }
     }
 }

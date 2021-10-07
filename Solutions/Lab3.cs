@@ -1,6 +1,6 @@
 using System;
 
-namespace lesson1.Solutions
+namespace bootcamp.Solutions
 {
     class Lab3
     {

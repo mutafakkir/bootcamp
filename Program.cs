@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Linq;
-using lesson1.Solutions;
+using bootcamp.Solutions;
 
 namespace lesson1
 {
@@ -8,7 +8,7 @@ namespace lesson1
     {
         static void Main()
         {
-            System.Console.WriteLine("Choose Lab(2, 3, 4): ");
+            System.Console.WriteLine("Choose Lab(2, 3, 4, 5, 6): ");
             var line = Console.ReadLine();
             var data = line.Split(' ');
             var a = int.Parse(data[0]);
@@ -54,27 +54,34 @@ namespace lesson1
             }
 
             else if(a == 5)
-            {   
-                lab4.Problem1();
-                lab4.Problem2();
-                lab4.Problem3();
-                lab4.Problem4();
-                lab4.Problem5();
-                lab4.Problem6();
-                lab4.Problem7();
-                lab4.Problem8();
-                lab4.Problem9();
-                lab4.Problem10();
-                lab4.Problem11();
-                lab4.Problem13();
-                lab4.Problem14();
-                lab4.Problem15();
-                lab4.Problem16();
-                lab4.Problem17();
-                lab4.Problem18();
-                lab4.Problem19();
-                lab4.Problem20();
-                lab4.Problem21();
+            {  
+                var lab5 = new Lab5(); 
+                lab5.Problem1();
+                lab5.Problem2();
+                lab5.Problem3();
+                lab5.Problem4();
+                lab5.Problem5();
+                lab5.Problem6();
+                lab5.Problem7();
+                lab5.Problem8();
+                lab5.Problem9();
+                lab5.Problem10();
+                lab5.Problem11();
+                lab5.Problem13();
+                lab5.Problem14();
+                lab5.Problem15();
+                lab5.Problem16();
+                lab5.Problem17();
+                lab5.Problem18();
+                lab5.Problem19();
+                lab5.Problem20();
+                lab5.Problem21();
+            }
+
+            else if(a == 6)
+            {
+                var lab6 = new Lab6();
+                lab6.Problem23();
             }
         }
     }

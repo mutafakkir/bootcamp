@@ -97,11 +97,8 @@ namespace lesson1
                 lab6.Problem19();
                 lab6.Problem20();
                 lab6.Problem21();
-
                 lab6.Problem22();
-
                 lab6.Problem23();
-
                 lab6.Problem24();
             }
         }

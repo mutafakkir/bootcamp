@@ -81,7 +81,29 @@ namespace lesson1
             else if(a == 6)
             {
                 var lab6 = new Lab6();
-                lab6.Problem23();
+                lab6.Problem1();
+                lab6.Problem2();
+                lab6.Problem3();
+                lab6.Problem4();
+                lab6.Problem5();
+                lab6.Problem6();
+                lab6.Problem7();
+                lab6.Problem8();
+                lab6.Problem9();
+                lab6.Problem10();
+                lab6.Problem11();
+                lab6.Problem13();
+                lab6.Problem14();
+                lab6.Problem15();
+                lab6.Problem16();
+                lab6.Problem17();
+                lab6.Problem18();
+                lab6.Problem19();
+                lab6.Problem20();
+                lab6.Problem21();;
+                lab6.Problem22();;
+                lab6.Problem23();;
+                lab6.Problem24();;
             }
         }
     }

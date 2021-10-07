@@ -17,7 +17,7 @@ namespace bootcamp.Solutions
             }   
         }
 
-        public void Problem2() // Masala 2
+        public void Problem2()
         {
             int a = int.Parse(Console.ReadLine());
 
@@ -42,7 +42,7 @@ namespace bootcamp.Solutions
             }
         }
 
-        public void Problem3() // Masala 3
+        public void Problem3()
         {
             int sum = 0;
 
@@ -79,7 +79,7 @@ namespace bootcamp.Solutions
             }
         }
 
-        public void Problem5() // Masala 5
+        public void Problem5()
         {
             string[] tokens = Console.ReadLine().Split();
 
@@ -99,7 +99,7 @@ namespace bootcamp.Solutions
             }
         }
 
-        public void Problem6() // Masala 6
+        public void Problem6()
         {
             int lines = int.Parse(Console.ReadLine());
             
@@ -140,7 +140,7 @@ namespace bootcamp.Solutions
             }
         }
 
-        public void Problem7() // Masala 7
+        public void Problem7()
         {
             for(int i = 1; i <= 10; i++)
             {
@@ -152,7 +152,7 @@ namespace bootcamp.Solutions
             }
         }
 
-        public void Problem8() // Masala 8
+        public void Problem8()
         {
             int count = 0;
             int num = int.Parse(Console.ReadLine());
@@ -172,7 +172,7 @@ namespace bootcamp.Solutions
             Console.WriteLine(count);
         }
 
-        public void Problem9() // Masala 9
+        public void Problem9()
         {
             int num = 1; int number = int.Parse(Console.ReadLine());
 
@@ -194,7 +194,7 @@ namespace bootcamp.Solutions
             }
         }
 
-        public void Problem10() // Masala 10
+        public void Problem10()
         {
             int num = int.Parse(Console.ReadLine());
 
@@ -217,7 +217,7 @@ namespace bootcamp.Solutions
             Console.Write(num);
         }
 
-        public void Problem11() // Masala 11
+        public void Problem11()
         {
             for(int i = 1; i <= 6; i++)
             {
@@ -235,7 +235,7 @@ namespace bootcamp.Solutions
             }
         }
 
-        public void Problem12() // Masala 12
+        public void Problem12()
         {
             int sum = 0; int N = int.Parse(Console.ReadLine());
 
@@ -246,29 +246,29 @@ namespace bootcamp.Solutions
             Console.WriteLine(sum);
         }
 
-        // public void Problem13()
-        // {
-        //     int sum = 0, cnt = 0;
+        public void Problem13()
+        {
+            int sum = 0, cnt = 0;
 
-        //     while(true)
-        //     {
-        //         string[] N = Console.ReadLine().Split(' ');
-        //         int[] number = new int[N.Length];
-        //         for (int i = 0; i < N.Length; i++)
-        //         {
-        //             number[i] = Convert.ToInt32(N[i]);
-        //         }
+            while(true)
+            {
+                string[] N = Console.ReadLine().Split(' ');
+                int[] number = new int[N.Length];
+                for (int i = 0; i < N.Length; i++)
+                {
+                    number[i] = Convert.ToInt32(N[i]);
+                }
 
-        //         cnt ++;
+                cnt ++;
 
-        //         if(number <= 0)
-        //         {
-        //             System.Console.WriteLine($"{sum} {(sum / cnt + 1):F2} {cnt - 1}");
-        //             break;
-        //         }
-        //         sum += number;
-        //     }
-        // }
+                if(number <= 0)
+                {
+                    System.Console.WriteLine($"{sum} {(sum / cnt + 1):F2} {cnt - 1}");
+                    break;
+                }
+                sum += number;
+            }
+        }
 
         public void Problem14()
         {

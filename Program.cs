@@ -2,7 +2,7 @@
 using System.Linq;
 using bootcamp.Solutions;
 
-namespace lesson1
+namespace bootcamp
 {
     class Program
     {

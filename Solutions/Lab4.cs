@@ -7,7 +7,10 @@ namespace bootcamp.Solutions
         public void Problem1()
         {
             int N = int.Parse(Console.ReadLine());
-            System.Console.WriteLine($"{N/10000}!{(N/1000) % 10}!{(N/100) % 10}!{(N/10) % 10}!{N % 10}");
+            System
+                .Console
+                .WriteLine($"{N / 10000}!{(N / 1000) % 10}!{(N / 100) % 10}!{
+                    (N / 10) % 10}!{N % 10}");
         }
 
         public void Problem2()
@@ -17,9 +20,9 @@ namespace bootcamp.Solutions
             int minutes = N % 3600 / 60;
             N = N % 60;
 
-            string h = hours.ToString().PadLeft(2,'0');
-            string m = minutes.ToString().PadLeft(2,'0');
-            string n = N.ToString().PadLeft(2,'0');
+            string h = hours.ToString().PadLeft(2, '0');
+            string m = minutes.ToString().PadLeft(2, '0');
+            string n = N.ToString().PadLeft(2, '0');
 
             System.Console.WriteLine($"{h}:{m}:{n}");
         }
@@ -29,8 +32,8 @@ namespace bootcamp.Solutions
             int N = int.Parse(Console.ReadLine());
 
             int target = N / 100 % 10;
-            N = target <= 5 ? N / 1000 * 1000 : (N / 1000 + 1) * 1000 ;
-            System.Console.WriteLine(target);
+            N = target <= 5 ? N / 1000 * 1000 : (N / 1000 + 1) * 1000;
+            System.Console.WriteLine (target);
         }
 
         public void Problem4()
@@ -38,12 +41,11 @@ namespace bootcamp.Solutions
             int N = int.Parse(Console.ReadLine());
             int target = N / 100 % 10;
 
-            if(target < 5)
+            if (target < 5)
             {
                 System.Console.WriteLine($"{N / 1000 * 1000}");
             }
-
-            else if(target > 5)         
+            else if (target > 5)
             {
                 System.Console.WriteLine($"{(N / 1000 + 1) * 1000}");
             }
@@ -57,7 +59,7 @@ namespace bootcamp.Solutions
             double radius = N / (2 * P);
             double S = P * radius * radius;
 
-            int b = (int)Math.Round(S);
+            int b = (int) Math.Round(S);
 
             System.Console.WriteLine($"{b}");
         }
@@ -66,11 +68,10 @@ namespace bootcamp.Solutions
         {
             int N = int.Parse(Console.ReadLine());
 
-            if(N >= 20 && N <= 30)
+            if (N >= 20 && N <= 30)
             {
                 System.Console.WriteLine("1");
             }
-
             else
             {
                 System.Console.WriteLine("0");
@@ -81,16 +82,14 @@ namespace bootcamp.Solutions
         {
             char N = char.Parse(Console.ReadLine());
 
-            if(N >= 65 && N <= 90)
+            if (N >= 65 && N <= 90)
             {
                 System.Console.WriteLine("1");
             }
-
-            else if ((N >= 97 && N <= 122))    
+            else if ((N >= 97 && N <= 122))
             {
                 System.Console.WriteLine("1");
             }
-
             else
             {
                 System.Console.WriteLine("0");
@@ -113,8 +112,7 @@ namespace bootcamp.Solutions
             {
                 System.Console.WriteLine($"{N}");
             }
-        
-            else if(N < M) 
+            else if (N < M)
             {
                 System.Console.WriteLine($"{M}");
             }
@@ -130,11 +128,10 @@ namespace bootcamp.Solutions
                 System.Console.WriteLine($"{N / M}");
                 System.Console.WriteLine($"{N % M}");
             }
-
             else if (N < M)
             {
                 System.Console.WriteLine($"{M / N}");
-                System.Console.WriteLine($"{M % N}"); 
+                System.Console.WriteLine($"{M % N}");
             }
         }
     }

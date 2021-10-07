@@ -29,10 +29,10 @@ namespace bootcamp.Solutions
             System.Console.Write("Enter date: ");
             var b = Console.ReadLine();
 
-            string A = a.ToString().PadLeft(2,'0');
-            string B = b.ToString().PadLeft(2,'0');
+            string A = a.ToString().PadLeft(2, '0');
+            string B = b.ToString().PadLeft(2, '0');
 
-            System.Console.WriteLine("Bitrthdate is" + " " + A + '-' + B + " " + "(mm-dd)");
+            System.Console.WriteLine("Bitrthdate is" +" " + A + '-' + B + " " +"(mm-dd)");
         }
 
         public void Problem4()
@@ -45,10 +45,18 @@ namespace bootcamp.Solutions
             var a = int.Parse(data[0]);
             var b = int.Parse(data[1]);
 
-            string A = a.ToString().PadLeft(2,'0');
-            string B = b.ToString().PadLeft(2,'0');
+            string A = a.ToString().PadLeft(2, '0');
+            string B = b.ToString().PadLeft(2, '0');
 
-            System.Console.WriteLine("Bitrthdate is" + " " + A + '-' + B + " " + "(mm-dd)");
+            System
+                .Console
+                .WriteLine("Bitrthdate is" +
+                " " +
+                A +
+                '-' +
+                B +
+                " " +
+                "(mm-dd)");
         }
 
         public void Problem5()
@@ -105,45 +113,45 @@ namespace bootcamp.Solutions
 
             a = b;
             b = c;
-            c = a+b;
+            c = a + b;
 
-            System.Console.Write($"{c} ");  
-
-            a = b;
-            b = c;
-            c = a+b;
-
-            System.Console.Write($"{c} ");      
+            System.Console.Write($"{c} ");
 
             a = b;
             b = c;
-            c = a+b;
+            c = a + b;
 
-            System.Console.Write($"{c} ");     
-
-            a = b;
-            b = c;
-            c = a+b;
-
-            System.Console.Write($"{c} ");    
+            System.Console.Write($"{c} ");
 
             a = b;
             b = c;
-            c = a+b;
+            c = a + b;
 
-            System.Console.Write($"{c} ");     
-
-            a = b;
-            b = c;
-            c = a+b;
-
-            System.Console.Write($"{c} ");      
+            System.Console.Write($"{c} ");
 
             a = b;
             b = c;
-            c = a+b;
+            c = a + b;
 
-            System.Console.Write($"{c} ");  
+            System.Console.Write($"{c} ");
+
+            a = b;
+            b = c;
+            c = a + b;
+
+            System.Console.Write($"{c} ");
+
+            a = b;
+            b = c;
+            c = a + b;
+
+            System.Console.Write($"{c} ");
+
+            a = b;
+            b = c;
+            c = a + b;
+
+            System.Console.Write($"{c} ");
         }
     }
 }

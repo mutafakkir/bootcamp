@@ -12,8 +12,8 @@ namespace lesson1
             var line = Console.ReadLine();
             var data = line.Split(' ');
             var a = int.Parse(data[0]);
-            
-            if(a == 2)
+
+            if (a == 2)
             {
                 var lab2 = new Lab2();
                 lab2.Problem1();
@@ -26,8 +26,7 @@ namespace lesson1
                 lab2.Problem8();
                 lab2.Problem9();
             }
-
-            else if(a == 3)
+            else if (a == 3)
             {
                 var lab3 = new Lab3();
                 lab3.Problem1();
@@ -37,8 +36,7 @@ namespace lesson1
                 lab3.Problem5();
                 lab3.Problem6();
             }
-
-            else if(a == 4)
+            else if (a == 4)
             {
                 var lab4 = new Lab4();
                 lab4.Problem1();
@@ -52,10 +50,9 @@ namespace lesson1
                 lab4.Problem9();
                 lab4.Problem10();
             }
-
-            else if(a == 5)
-            {  
-                var lab5 = new Lab5(); 
+            else if (a == 5)
+            {
+                var lab5 = new Lab5();
                 lab5.Problem1();
                 lab5.Problem2();
                 lab5.Problem3();
@@ -77,8 +74,7 @@ namespace lesson1
                 lab5.Problem20();
                 lab5.Problem21();
             }
-
-            else if(a == 6)
+            else if (a == 6)
             {
                 var lab6 = new Lab6();
                 lab6.Problem1();
@@ -100,10 +96,13 @@ namespace lesson1
                 lab6.Problem18();
                 lab6.Problem19();
                 lab6.Problem20();
-                lab6.Problem21();;
-                lab6.Problem22();;
-                lab6.Problem23();;
-                lab6.Problem24();;
+                lab6.Problem21();
+
+                lab6.Problem22();
+
+                lab6.Problem23();
+
+                lab6.Problem24();
             }
         }
     }

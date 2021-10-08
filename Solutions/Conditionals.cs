@@ -2,7 +2,7 @@ using System;
 
 namespace bootcamp.Solutions
 {
-    class Lab5
+    class Conditionals
     {
         public void Problem1()
         {

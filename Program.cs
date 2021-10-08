@@ -8,10 +8,8 @@ namespace bootcamp
     {
         static void Main()
         {
-            System.Console.WriteLine("Choose Lab(2, 3, 4, 5, 6): ");
-            var line = Console.ReadLine();
-            var data = line.Split(' ');
-            var a = int.Parse(data[0]);
+            System.Console.WriteLine("Choose Lab(2, 3, 4, 5, 6, 7): ");
+            int a = int.Parse(Console.ReadLine());
 
             if (a == 2)
             {
@@ -28,7 +26,7 @@ namespace bootcamp
             }
             else if (a == 3)
             {
-                var lab3 = new Lab3();
+                var lab3 = new Variables();
                 lab3.Problem1();
                 lab3.Problem2();
                 lab3.Problem3();
@@ -38,7 +36,7 @@ namespace bootcamp
             }
             else if (a == 4)
             {
-                var lab4 = new Lab4();
+                var lab4 = new Expressions();
                 lab4.Problem1();
                 lab4.Problem2();
                 lab4.Problem3();
@@ -52,7 +50,7 @@ namespace bootcamp
             }
             else if (a == 5)
             {
-                var lab5 = new Lab5();
+                var lab5 = new Conditionals();
                 lab5.Problem1();
                 lab5.Problem2();
                 lab5.Problem3();
@@ -76,7 +74,7 @@ namespace bootcamp
             }
             else if (a == 6)
             {
-                var lab6 = new Lab6();
+                var lab6 = new Loops();
                 lab6.Problem1();
                 lab6.Problem2();
                 lab6.Problem3();
@@ -100,6 +98,12 @@ namespace bootcamp
                 lab6.Problem22();
                 lab6.Problem23();
                 lab6.Problem24();
+            }
+
+            else if (a == 7)
+            {
+                var array = new Arrays();
+                array.Problem5();
             }
         }
     }

@@ -2,7 +2,7 @@ using System;
 
 namespace bootcamp.Solutions
 {
-    class Lab3
+    class Variables
     {
         public void Problem1()
         {

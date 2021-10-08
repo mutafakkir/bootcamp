@@ -1,8 +1,9 @@
 using System;
+using System.Linq;
 
 namespace bootcamp.Solutions
 {
-    class Lab6
+    class Loops
     {
         public void Problem1()
         {
@@ -248,26 +249,21 @@ namespace bootcamp.Solutions
 
         public void Problem13()
         {
-            int sum = 0, cnt = 0;
+            var numbers = Console.ReadLine()
+            .Split(' ', StringSplitOptions.RemoveEmptyEntries)
+            .Select(i => int.Parse(i))
+            .ToList();
 
-            while(true)
+            int sum = 0;
+
+            foreach (var son in numbers)
             {
-                string[] N = Console.ReadLine().Split(' ');
-                int[] number = new int[N.Length];
-                for (int i = 0; i < N.Length; i++)
-                {
-                    number[i] = Convert.ToInt32(N[i]);
-                }
+                if(son <= 0) break;
 
-                cnt ++;
-
-                if(number <= 0)
-                {
-                    System.Console.WriteLine($"{sum} {(sum / cnt + 1):F2} {cnt - 1}");
-                    break;
-                }
-                sum += number;
+                sum += son;
             }
+
+            Console.WriteLine($"{sum}");
         }
 
         public void Problem14()

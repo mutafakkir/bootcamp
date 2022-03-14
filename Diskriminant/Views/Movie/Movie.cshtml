@@ -1,0 +1,38 @@
+@model mvc.ViewModels.MovieViewModel
+
+<form asp-controller="Movie" asp-action="Movie" method="post">
+    <div class="form-horizontal">
+        <div class="col-md-10">
+            <div>
+                <p> Movie Name: <input asp-for="MovieName" style="max-width: 200px;" /> </p>
+            </div>
+
+            <div>
+                <p> Company name: <input asp-for="Country" style="max-width: 200px;"/> </p>
+            </div>
+
+            <div>
+                <p> Genre: <input asp-for="Genre" style="max-width: 200px;"/> </p>
+            </div>
+            <h5 class="mt-3"><button class="btn btn-primary" type="submit">Purchase</button></h5>
+        </div>
+    </div>
+</form>
+
+@* @{
+    ViewBag.Title = "www.compilemode.com";
+}
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <hr />
+        <div class="form-group">
+            <label class="col-md-2 control-label">Select Country</label>
+            <div class="col-md-10">
+                @Html.DropDownList("CountryList",new SelectList(ViewBag.CountryList),new {@class = "form-control" })
+            </div>
+        </div>
+    </div>
+} *@
